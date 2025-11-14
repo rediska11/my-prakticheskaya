@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Моё портфолио 2025</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Закреплённая шапка -->
+    <header class="navbar">
+      <nav>
+        <a href="#home">Главная</a>
+        <a href="#about">Обо мне</a>
+        <a href="#skills">Навыки</a>
+        <a href="#projects">Проекты</a>
+        <a href="#blog">Ресурсы</a>
+        <a href="#contact">Контакты</a>
+        <div class="theme-btn" id="themeBtn">Тема</div>
+      </nav>
+    </header>
+
+    <!-- Главный экран -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Привет, я <span class="gradient">Артемий</span></h1>
+        <p>Студент-разработчик • Frontend • учусь делать прикольные сайты</p>
+        <a href="#projects" class="btn">Мои проекты ↓</a>
+      </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>Обо мне</h2>
+        <div class="glass">
+          <p>
+            Горю веб-разработкой. Увлекаюсь современным дизайном, анимациями и
+            чистым кодом. Постоянно учусь и делаю проекты, чтобы стать крутым
+            фронтендом.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Навыки -->
+    <section id="skills" class="section bg-alt">
+      <div class="container">
+        <h2>Навыки</h2>
+        <div class="skills-grid">
+          <div class="skill" data-tilt>
+            <span>HTML</span>
+            <div class="bar"><div style="width: 92%"></div></div>
+          </div>
+          <div class="skill" data-tilt>
+            <span>CSS</span>
+            <div class="bar"><div style="width: 88%"></div></div>
+          </div>
+          <div class="skill" data-tilt>
+            <span>JavaScript</span>
+            <div class="bar"><div style="width: 82%"></div></div>
+          </div>
+          <div class="skill" data-tilt>
+            <span>Git</span>
+            <div class="bar"><div style="width: 80%"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Проекты -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Проекты</h2>
+        <div class="projects-grid">
+          <div class="project" data-tilt>
+            <div class="img" style="background: #8b5cf6"></div>
+            <h3>ToDo App</h3>
+            <p>Современный список задач с анимациями</p>
+            <a href="#" class="link">GitHub →</a>
+          </div>
+          <div class="project" data-tilt>
+            <div class="img" style="background: #ec4899"></div>
+            <h3>Магазин</h3>
+            <p>Адаптивный лендинг с корзиной</p>
+            <a href="#" class="link">GitHub →</a>
+          </div>
+          <div class="project" data-tilt>
+            <div class="img" style="background: #10b981"></div>
+            <h3>Погода</h3>
+            <p>Приложение с OpenWeather API</p>
+            <a href="#" class="link">GitHub →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ресурсы -->
+    <section id="blog" class="section bg-alt">
+      <div class="container">
+        <h2>Полезные ресурсы</h2>
+        <div class="links">
+          <a
+            href="https://developer.mozilla.org/ru/"
+            target="_blank"
+            class="glass link"
+            >MDN Web Docs</a
+          >
+          <a href="https://javascript.info" target="_blank" class="glass link"
+            >javascript.info</a
+          >
+          <a
+            href="https://www.freecodecamp.org"
+            target="_blank"
+            class="glass link"
+            >freeCodeCamp</a
+          >
+          <a href="https://css-tricks.com" target="_blank" class="glass link"
+            >CSS-Tricks</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Связаться со мной</h2>
+        <div class="glass contact-form">
+          <form>
+            <input type="text" placeholder="Имя" required />
+            <input type="email" placeholder="Email" required />
+            <textarea placeholder="Сообщение..." rows="5" required></textarea>
+            <button type="submit" class="btn">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
